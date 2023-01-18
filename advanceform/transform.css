@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    
+}
+
+.container{
+    width: 300px;
+    height: 600px;
+    background-color: darkgrey;
+    display: block;
+    border-radius: 20px;
+
+}
+
+div{
+    width: 250px;
+    height: 60%;
+}
+
+form{
+    width: 90%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    width: 70%;
+    height: 20px;
+    margin: 50px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+
+
+label div span {
+    color: blue;
+    font-size: 20px;
+}
+
+h1{
+    margin-bottom: 50px;
+    margin-left: 90px;
+    font-weight: bolder;
+    color: #fff7f3;
+}
+
+label div input {
+    margin: 10px;
+    width: auto;
+    height: 25px;
+}
+
+input {
+    margin: 10px;
+    width: auto;
+    height: 25px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+
+a input {
+    width: 100px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
